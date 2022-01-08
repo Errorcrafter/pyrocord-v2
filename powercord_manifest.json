@@ -1,0 +1,8 @@
+{
+    "name": "PyroCord 2",
+    "description": "PyroCord completely rewritten from scratch for Discord Canary 110234 (b3cd76f)",
+    "version": "0.1",
+    "author": "macpherson#1415",
+    "theme": "index.scss",
+    "license": "MIT"
+}
