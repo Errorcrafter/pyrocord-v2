@@ -1,0 +1,24 @@
+.theme-dark, :root {
+    --background-primary: #181818 !important;
+    --background-secondary: #1d1d1d !important;
+    --background-secondary-alt: #1a1a1a !important;
+    --background-tertiary: #181818 !important;
+    --channeltextarea-background: #292929 !important;
+    --deprecated-quickswitcher-input-background: #292929 !important;
+}
+
+// Home button / icon-less server colour.
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+    background-color: #ff6739;
+}
+
+// Join server button and server discovery button colour.
+.circleIconButton-1VxDrg {
+    color: #ff6739;
+    background: var(--background-secondary);
+}
+
+.circleIconButton-1VxDrg:hover {
+    color: #fff;
+    background: #ff6739;
+}
