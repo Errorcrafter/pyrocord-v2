@@ -67,7 +67,7 @@
 
 .reaction-2A2y9y.reactionMe-3I9gFK:hover .reactionCount-1zkLcN {
     color: #ff3131;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 // Emoji autocomplete
@@ -85,7 +85,7 @@
 }
 
 .actionIcon-2sw4Sl:hover {
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 // CTRL-F searchbar
@@ -96,13 +96,18 @@
 
 // Bot tag
 .botTagRegular-kpctgU {
-    transition: 0.3s;
+    transition: 0.2s;
     background: #ff262644;
     color: #ffffff;
 }
 
 .botTagRegular-kpctgU:hover {
-    transition: 0.3s;
+    transition: 0.2s;
     background: #ff2626ab;
     color: #ffffff;
+}
+
+// Streamer mode colour
+.colorStreamerMode-8uoRWd {
+    background-color: var(--background-tertiary-alt);
 }
