@@ -3,10 +3,14 @@
 code, code.inline {
     font-family: "JetBrains Mono",monospace !important;
     font-size: smaller;
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    font-feature-settings: "liga" on, "calt" on;
 }
 
 .after_inlineCode-WydEur, .before_inlineCode-xn8Llh, .inlineCode-2auMQi, .codeBlockText-311wOq, .codeLine-3a3dbd,
 .codeBlockLang-3OMn-4, .codeBlockSyntax-2MZ-Qy {
     font-family: "JetBrains Mono",monospace !important;
     font-size: smaller;
+    -webkit-font-feature-settings: "liga" on, "calt" on;
+    font-feature-settings: "liga" on, "calt" on;
 }

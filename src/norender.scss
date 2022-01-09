@@ -16,12 +16,6 @@ div #channel-attach-SLASH_COMMAND {
     opacity: 0;
 }
 
-// Sticker autocomplete
-// .base-2v-uc0 {
-//     display: none !important;
-//     opacity: 0;
-// }
-
 // Update button
 div[aria-label="Update ready!"] {
     display: none !important;
@@ -31,16 +25,22 @@ div[aria-label="Update ready!"] {
 // Help button
 a[href="https://support.discord.com"] {
     display: none !important;
-    opacity: 0;   
+    opacity: 0;
 }
 
 // Descriptions for the status picker
 .description-3Cwkxk {
     display: none !important;
-    opacity: 0; 
+    opacity: 0;
 }
 
 .separator-1So4YB { // this may fuck shit up
     display: none !important;
-    opacity: 0; 
+    opacity: 0;
+}
+
+// Events button because fuck it
+.mainContent-20q_Hp[data-list-item-id^="channels___upcoming-events"] {
+    display: none !important;
+    opacity: 0;
 }
