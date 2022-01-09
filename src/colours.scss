@@ -9,9 +9,13 @@
     --background-floating: #1d1d1d !important;
 }
 
-// Home button / icon-less server colour.
+// Home button / icon-less server colour. 
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
     background-color: #ff6739;
+}
+
+.wrapper-3kah-n.selected-1Drb7Z .homeIcon-r0w4ny, .wrapper-3kah-n:hover .homeIcon-r0w4ny {
+    color: #000;
 }
 
 // Join server button colour.
