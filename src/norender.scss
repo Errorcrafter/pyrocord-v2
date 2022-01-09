@@ -21,3 +21,15 @@ div #channel-attach-SLASH_COMMAND {
 //     display: none !important;
 //     opacity: 0;
 // }
+
+// Update button
+div[aria-label="Update ready!"] {
+    display: none !important;
+    opacity: 0;
+}
+
+// Help button
+a[href="https://support.discord.com"] {
+    display: none !important;
+    opacity: 0;   
+}

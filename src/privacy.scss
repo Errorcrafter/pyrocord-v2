@@ -1,0 +1,23 @@
+// Blurs serverlist. Original snippet by legume#0173
+[aria-label=Servers] .listItem-3SmSlK:not(.selected) svg {
+    --props: 0.25s linear;
+    filter: blur(5px);
+    margin-bottom: 15px;
+    //clip-path: circle(50% at center);
+    transition: 0.3px;
+}
+[aria-label=Servers] .listItem-3SmSlK:hover svg {
+    filter: none;
+    clip-path: none;
+}
+
+// Transaction history
+.paymentPane-ut5qKZ .verticalFit-21XL0v {
+    filter: blur(5px);
+    transition: 0.3px;
+}
+
+.paymentPane-ut5qKZ:hover .verticalFit-21XL0v {
+    filter: none;
+    transition: 0.3px;
+} // TODO: add shit here
