@@ -1,0 +1,23 @@
+// Gift button
+button[aria-label="Send a gift"] {
+    display: none !important;
+    opacity: 0;
+}
+
+// Sticker button
+button[aria-label="Open sticker picker"] {
+    display: none !important;
+    opacity: 0;
+}
+
+// "Use Slash Command" button in the plus sign thing
+div #channel-attach-SLASH_COMMAND {
+    display: none !important;
+    opacity: 0;
+}
+
+// Sticker autocomplete
+// .base-2v-uc0 {
+//     display: none !important;
+//     opacity: 0;
+// }

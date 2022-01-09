@@ -3,6 +3,7 @@
     --background-secondary: #1d1d1d !important;
     --background-secondary-alt: #1a1a1a !important;
     --background-tertiary: #181818 !important;
+    --background-tertiary-alt: #292929 !important;
     --channeltextarea-background: #292929 !important;
     --deprecated-quickswitcher-input-background: #292929 !important;
 }
@@ -12,7 +13,7 @@
     background-color: #ff6739;
 }
 
-// Join server button and server discovery button colour.
+// Join server button colour.
 .circleIconButton-1VxDrg {
     color: #ff6739;
     background: var(--background-secondary);
@@ -65,5 +66,23 @@
 
 .reaction-2A2y9y.reactionMe-3I9gFK:hover .reactionCount-1zkLcN {
     color: #ff3131;
+    transition: 0.3s;
+}
+
+// Emoji autocomplete
+.theme-dark .autocomplete-3NRXG8 {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .selected-3H3-RC {
+    background-color: var(--background-tertiary-alt);
+}
+
+// Invite button on channels
+.actionIcon-2sw4Sl {
+    color: var(--channels-default);
+}
+
+.actionIcon-2sw4Sl:hover {
     transition: 0.3s;
 }
