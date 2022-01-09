@@ -1,0 +1,61 @@
+// UNREAD CHANNELS
+// Unread indicator on the side
+.unread-36eUEm, .unreadRelevant-2f-VSK {
+    background-color: #ff6739;
+    top: 35%;      // ┐ Extremely janky way to make the unread 
+    height: 20px;  // ┘ indicator bigger. I hate it.
+}
+
+// Channel name
+.modeUnread-3Cxepe .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    color: #ff6739;
+}
+
+// Channel name (hovered)
+.modeUnread-3Cxepe:hover .name-28HaxV,
+.notInteractive-2tFrlE.modeConnected-NrO4cP .name-28HaxV, .notInteractive-2tFrlE.modeSelected-3DmyhH .name-28HaxV {
+    color: #ff835d;
+}
+
+// Channel icon
+.modeUnread-3Cxepe .icon-2W8DHg {
+    color: #ff6739;
+}
+
+// Channel icon (hovered)
+.modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: #ff835d;
+}
+
+// SELECTED CHANNEL
+
+// Channel name
+.modeConnected-NrO4cP .name-28HaxV, .modeSelected-3DmyhH .name-28HaxV {
+    color: #ff3131;
+}
+
+// Channel name (hovered)
+.modeConnected-NrO4cP:hover .name-28HaxV, .modeSelected-3DmyhH:hover .name-28HaxV {
+    color: #ff4f4f;
+}
+
+// Channel icon
+.modeConnected-3Cxepe .icon-2W8DHg, .modeSelected-3DmyhH .icon-2W8DHg {
+    color: #ff3131;
+}
+
+// Channel icon (hovered)
+.modeConnected-3Cxepe:hover .icon-2W8DHg, .modeSelected-3DmyhH:hover .icon-2W8DHg {
+    color: #ff4f4f;
+}
+
+// VC icon
+.modeConnected-NrO4cP .icon-2W8DHg {
+    color: #ff3131;
+}
+
+// VC icon (hovered)
+.modeConnected-NrO4cP:hover .icon-2W8DHg {
+    color: #ff4f4f;
+}

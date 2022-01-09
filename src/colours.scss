@@ -22,3 +22,48 @@
     color: #fff;
     background: #ff6739;
 }
+
+// Search bar
+.theme-dark .focused-2FU0YH {
+    background-color: var(--background-primary);
+}
+
+.resultsGroup-1BPR25 {
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .option-2KkUJO:after {
+    background: #1a1a1a;
+}
+
+// Calendar picker that i will never use
+.theme-dark .calendarPicker-sDhzdi .react-datepicker {
+    background-color: var(--background-primary);
+}
+
+.react-datepicker__header, .react-datepicker__current-month {
+    background-color: var(--background-secondary);
+}
+
+// Selected day on calendar
+.calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--selected:after, .calendarPicker-sDhzdi
+.react-datepicker__day.react-datepicker__day--keyboard-selected, .calendarPicker-sDhzdi
+.react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-sDhzdi .react-datepicker__day:hover,
+.theme-dark .datePicker-70cO23 .datePickerHint-17MnA8:hover .hintValue-1x-flY {
+    background-color: #ff6739;
+}
+
+// Reactions
+.reaction-2A2y9y.reactionMe-3I9gFK {
+    background-color: #ff67394f !important;
+    border-color: transparent;
+}
+
+.reaction-2A2y9y.reactionMe-3I9gFK .reactionCount-1zkLcN {
+    color: #ff6739;
+}
+
+.reaction-2A2y9y.reactionMe-3I9gFK:hover .reactionCount-1zkLcN {
+    color: #ff3131;
+    transition: 0.3s;
+}
