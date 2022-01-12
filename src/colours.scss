@@ -7,6 +7,7 @@
     --channeltextarea-background: #292929 !important;
     --deprecated-quickswitcher-input-background: #292929 !important;
     --background-floating: #1d1d1d !important;
+    --text-link: #ff6739;
 }
 
 // Home button / icon-less server colour. 
@@ -25,7 +26,12 @@
 }
 
 .circleIconButton-1VxDrg:hover {
-    color: #fff;
+    color: #000;
+    background: #ff6739;
+}
+
+.circleIconButton-1VxDrg.selected-2r1Hvo {
+    color: #000;
     background: #ff6739;
 }
 
@@ -114,4 +120,25 @@
 // Streamer mode colour
 .colorStreamerMode-8uoRWd {
     background-color: var(--background-tertiary-alt);
+}
+
+// Selection for the lolz
+::selection {
+    background-color: #ff6739;
+    opacity: 30%;
+    color: #000;
+}
+
+/* Transparent Settings Screen layers-OrUESM layers-1YQhyW*/
+.layers-OrUESM>.layer-86YKbF:first-child, .layers-1YQhyW>.layer-86YKbF:first-child{
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+.layers-OrUESM>.layer-86YKbF:nth-child(2),.perksModal-fSYqOq{
+    background-color: #10101080!important;
+    backdrop-filter: blur(20px);
+}
+.contentRegionScroller-2_GT_N,.contentRegion-3HkfJJ,.standardSidebarView-E9Pc3j,
+.sidebarRegionScroller-FXiQOh{
+    background: transparent;
 }

@@ -44,3 +44,10 @@ a[href="https://support.discord.com"] {
     display: none !important;
     opacity: 0;
 }
+
+// Guild discovery because who tf uses it?
+div[aria-label="Explore public servers"] {
+    display: none !important;
+    opacity: 0;
+    size: 0px;
+}
