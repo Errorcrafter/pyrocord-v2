@@ -129,7 +129,7 @@
     color: #000;
 }
 
-/* Transparent Settings Screen layers-OrUESM layers-1YQhyW*/
+// Transparent Settings Screen
 .layers-OrUESM>.layer-86YKbF:first-child, .layers-1YQhyW>.layer-86YKbF:first-child{
     transform: scale(1) !important;
     opacity: 1 !important;
@@ -141,4 +141,12 @@
 .contentRegionScroller-2_GT_N,.contentRegion-3HkfJJ,.standardSidebarView-E9Pc3j,
 .sidebarRegionScroller-FXiQOh{
     background: transparent;
+}
+
+// Modals for things like links
+.modalContent-3YXA7I {
+    background-color: var(--background-primary);
+}
+.theme-dark .footer-31IekZ {
+    background-color: var(--background-floating);
 }
