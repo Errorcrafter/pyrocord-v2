@@ -23,29 +23,29 @@
 } // TODO: add shit here
 
 // DMs
-.channel-1Shao0[aria-label$="(direct message)"]:not(.selected-1-Z6gm) {
+li.channel-1Shao0 > div > a[aria-label$="(direct message)"]:not(.selected-1-Z6gm) {
     filter: blur(5px);
     transition: 0.2s;
 }
-.channel-1Shao0[aria-label$="(direct message)"]:hover {
+li.channel-1Shao0 > div > a[aria-label$="(direct message)"]:hover {
     filter: none;
     transition: 0.2s;
 }
-.channel-1Shao0[aria-label$="(direct message)"].selected-1-Z6gm {
+li.channel-1Shao0 > div > a[aria-label$="(direct message)"].selected-1-Z6gm {
     filter: none;
     transition: 0.2s;
 }
 
 // Group chats
-.channel-1Shao0[aria-label$="(group message)"]:not(.selected-1-Z6gm) {
+li.channel-1Shao0 > div > a[aria-label$="(group message)"]:not(.selected-1-Z6gm) {
     filter: blur(5px);
     transition: 0.2s;
 }
-.channel-1Shao0[aria-label$="(group message)"]:hover {
+li.channel-1Shao0 > div > a[aria-label$="(group message)"]:hover {
     filter: none;
     transition: 0.2s;
 }
-.channel-1Shao0[aria-label$="(group message)"].selected-1-Z6gm {
+li.channel-1Shao0 > div > a[aria-label$="(group message)"].selected-1-Z6gm {
     filter: none;
     transition: 0.2s;
 }
